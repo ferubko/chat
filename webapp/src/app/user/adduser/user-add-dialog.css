@@ -1,0 +1,43 @@
+.add-input-item-full-width {
+  width: 100%;
+}
+
+.mat-dialog-container {
+  width: 500px;
+}
+
+.mat-card {
+  padding: 14px;
+}
+
+.add-input-button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.add-input-button i {
+  color: rebeccapurple;
+}
+
+.remove-input-button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.remove-input-button i {
+  color: #ff4081;
+}
+
+.region-content {
+  margin-top: 20px;
+}

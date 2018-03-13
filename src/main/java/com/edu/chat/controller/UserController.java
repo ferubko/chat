@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * @author Stepan Ferubko
  */
-//@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
 @RequestMapping("/api")
 public class UserController {
