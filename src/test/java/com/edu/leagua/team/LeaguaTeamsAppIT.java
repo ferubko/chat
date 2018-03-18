@@ -1,4 +1,4 @@
-package com.edu.chat;
+package com.edu.leagua.team;
 
 import org.junit.*;
 import org.junit.runner.RunWith;
@@ -20,7 +20,7 @@ import static org.junit.Assert.assertThat;
 //@Ignore
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ChatAppIT {
+public class LeaguaTeamsAppIT {
     @LocalServerPort
     private int port;
 

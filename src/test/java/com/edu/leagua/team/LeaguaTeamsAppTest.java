@@ -1,4 +1,4 @@
-package com.edu.chat;
+package com.edu.leagua.team;
 
 import org.junit.Ignore;
 import org.junit.Test;
@@ -22,7 +22,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class ChatAppTest {
+public class LeaguaTeamsAppTest {
     @Autowired
     private MockMvc mvc;
 

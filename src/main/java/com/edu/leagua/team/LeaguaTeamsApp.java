@@ -1,23 +1,20 @@
-package com.edu.chat;
+package com.edu.leagua.team;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author Stepan Ferubko
  */
 @SpringBootApplication
-public class ChatApp {
+public class LeaguaTeamsApp {
     public static void main(String[] args) {
         //SpringApplication.run(ChatApp.class, args);
 //for heroku only
-        SpringApplication application = new SpringApplication(ChatApp.class);
-        Map<String, Object> map = new HashMap<>();
-        map.put("server.port", System.getenv("PORT"));
-        application.setDefaultProperties(map);
+        SpringApplication application = new SpringApplication(LeaguaTeamsApp.class);
+//        Map<String, Object> map = new HashMap<>();
+//        map.put("server.port", System.getenv("PORT"));
+//        application.setDefaultProperties(map);
         application.run(args);
     }
 }

@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>
+            <section class="mat-typography">
+                <h2 class="mat-h2">Add new team</h2>
+            </section>
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form [formGroup]="addForm" (ngSubmit)="addNewTeam()">
+            <mat-input-container class="add-input-item-full-width">
+                <input matInput placeholder="Name" name="name" formControlName="name">
+            </mat-input-container>
+            <mat-input-container class="add-input-item-full-width">
+                <input matInput placeholder="Mail" name="mail" formControlName="mail">
+            </mat-input-container>
+            <div>
+                <button mat-button color="primary" type="submit" name="submit" [disabled]="!addForm.valid">Save</button>
+            </div>
+        </form>
+    </mat-card-content>
+    <mat-dialog-actions>
+        <button mat-button mat-dialog-close color="warn" type="button" name="cancel" (click)="close()">
+            <i class="material-icons">cancel</i>
+        </button>
+    </mat-dialog-actions>
+</mat-card>
+
