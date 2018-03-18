@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LeaguaTeamsApp {
     public static void main(String[] args) {
-        //SpringApplication.run(ChatApp.class, args);
+        //SpringApplication.run(LeaguaTeamsApp.class, args);
 //for heroku only
         SpringApplication application = new SpringApplication(LeaguaTeamsApp.class);
 //        Map<String, Object> map = new HashMap<>();
